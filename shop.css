@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.top-up{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5E1BE3;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+    font-style: bold;
+    
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    outline: rgb(48, 48, 48) solid 0.5px;
+    background-color: #ffffff;
+    
+
+    & .logo{
+        font-size: xx-large;
+        font-weight: bold;
+        color: #2c2a36;
+    }
+
+
+    & .acc ul{
+      display: flex;
+      
+      & li{
+        margin: 0 1rem;
+      }
+    }
+}
+
+.blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(241, 241, 241);
+
+  & .blog-m{
+    flex-direction: column;
+  }
+  
+}
+
+.av{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+.head-item-new, .head-item-most, .head-item-pop{
+  text-align: center;
+  font-size: large;
+  padding: 40px;
+  background-color: rgb(241, 241, 241);
+}
+
+.item-shop-new, .item-shop-most, .item-shop-pop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.top-up{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5E1BE3;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+    font-style: bold;
+    
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+
+    
+}
+
+.log-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
